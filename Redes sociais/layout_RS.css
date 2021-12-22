@@ -1,0 +1,126 @@
+/*
+CORES
+AZUL ESCURO: #0A497D
+AZUL ESCURO QUASE PRETO: #05243D
+AZUL MAIS CLARO: #1076C9
+AZUL MEIO CLARO: #0B518A
+AZUL MAIS ESCURO: #083A63
+*/
+
+/*---------------------------*/
+/*    ESTILO DA NAVEGAÇÃO    */
+/*---------------------------*/
+* {
+    margin:0; padding: 0; box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background-position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)), url(../Imagens/analytics-3265840_1920.jpg);
+    /*background-image: none;*/
+    background-size: cover;
+    background-position: center center;
+    
+    width: 100%;
+    height: 100vh;
+
+    border-top: 5px solid #05243D;
+}
+
+nav {
+    background-color: none;
+    width:95%;
+    height:100px;
+    margin-bottom: 20px;
+
+    margin: 10px auto;
+}
+nav div#logo {
+    float:left;
+    width: 70px;
+    height: 70px;
+}
+nav ion-icon#icone-home {
+    color: whitesmoke;
+    width: 45px;
+    height: 50px;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+nav ul#esquerda {
+    float:left;
+}
+nav ul#direita {
+    float:right;
+}
+nav ul{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+
+    margin-top: 30px;
+    height: 20px;
+}
+nav ul li {
+    list-style:none;
+    display: inline-block;
+}
+nav ul li a {
+    color:whitesmoke;
+    text-decoration:none;
+    padding:10px 30px;
+    border-radius: 100px;
+
+    font-size: 80%;
+}
+nav ul li a:hover {
+    background-color: #1076C9;
+
+    transition-duration: 0.8s;
+}
+nav ul li a#inscrever {
+    border: 1px solid whitesmoke;
+    padding: 9px 29px;
+}
+
+/*---------------------------*/
+/*  ESTILO DA REDES SOCIAIS */
+/*---------------------------*/
+#redes_sociais img{
+    position:absolute;
+    max-height: 550px;
+    max-width: 600px;
+    width: auto;
+    height: auto;
+    display: flex;
+    opacity: 0.85;
+    border-radius: 20px;
+
+    margin: -20px 200px 40px 370px;
+}
+#redes_sociais a{
+    color:mediumblue;
+}
+#redes_sociais a#insta{
+    position: absolute;
+    float: left;
+    margin: 30px 0px 500px 370px;
+}
+#redes_sociais a#twit{
+    position: absolute;
+    float: left;
+    margin: 300px 0px 100px 420px;
+}
+#redes_sociais a#tiktok{
+    position: absolute;
+    float: right;
+    margin: 30px 0px 500px 820px;
+}
+#redes_sociais a#face{
+    position: absolute;
+    float: right;
+    margin: 230px 0px 250px 850px;
+}

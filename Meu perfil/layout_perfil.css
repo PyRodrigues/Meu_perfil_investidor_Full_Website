@@ -1,0 +1,117 @@
+/*
+CORES
+AZUL ESCURO: #0A497D
+AZUL ESCURO QUASE PRETO: #05243D
+AZUL MAIS CLARO: #1076C9
+AZUL MEIO CLARO: #0B518A
+AZUL MAIS ESCURO: #083A63
+*/
+
+/*---------------------------*/
+/*    ESTILO DO NAVEGAÇÃO    */
+/*---------------------------*/
+
+* {
+    margin:0; padding: 0; box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background-image:linear-gradient(rgba(88,85,90,35) 5%, rgba(127,127,127,50) 35%, rgba(165,170,163,67)60%);
+    /* background-position: center top;*/
+    border-top: 5px solid #05243D;
+}
+
+main {
+    position: relative;
+    background-image: linear-gradient(rgba(240,240,240,94), rgba(242,242,242,95), rgba(255,255,255,100));
+    background-size: cover;
+    background-position: center center;
+    
+    width: 100%;
+    height: 100vh;
+
+}
+
+nav {
+    width:100%;
+    height:85px;
+    margin-bottom: 20px;
+
+    margin: 2px auto;
+}
+nav div#logo {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+nav i.material-icons-outlined {
+    color:whitesmoke;
+    font-size: 50px;
+    width: 45px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+nav i.material-icons-outlined:hover {
+    color: #1076C9;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+nav ul#esquerda {
+    float:left;
+}
+nav ul#direita {
+    float:right;
+}
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+
+    margin-top: 30px;
+    height: 20px;
+}
+nav ul#esquerda li {
+    list-style:none;
+}
+nav ul li a {
+    color:whitesmoke;
+    text-decoration:none;
+    padding:10px 30px;
+    border-radius: 100px;
+
+    font-size: 80%;
+}
+nav ul li a:hover {
+    background-color: #1076C9;
+
+    transition-duration: 0.8s;
+}
+
+main article {
+    background-color:whitesmoke;
+    float:left;
+    width: 65%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+article ul#produtos {
+    background-color:none;
+    list-style-type:disc;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+ul#produtos li {
+    padding: 5px;
+}

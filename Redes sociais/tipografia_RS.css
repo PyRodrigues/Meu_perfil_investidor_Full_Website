@@ -1,0 +1,57 @@
+/*
+FONTES:
+font-family: 'Architects Daughter', cursive;
+font-family: 'Arvo', serif;
+font-family: 'Gluten', cursive;
+font-family: 'Open Sans', sans-serif;
+
+CORES:
+AZUL ESCURO: #0A497D
+AZUL ESCURO QUASE PRETO: #05243D
+AZUL MAIS CLARO: #1076C9
+AZUL MEIO CLARO: #0B518A
+AZUL MAIS ESCURO: #083A63
+*/
+
+/*---------------------*/
+/*  ELEMENTOS GERAIS   */
+/*---------------------*/
+
+* {
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    color:black;
+    font-family: 'Arvo', serif;
+    text-align: justify;
+    text-transform: none;
+}
+h1 {
+    font-size: 200%;
+    font-weight: 100;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+h2 {
+    font-size: 150%;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 120%;
+}
+
+nav ul, li, a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: justify;
+}
+
+nav ul ul li a {
+    font-size: 100%;
+}
+#redes_sociais a{
+    font-size: 150%;
+}

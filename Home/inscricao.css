@@ -1,0 +1,179 @@
+* {
+    margin:0; padding:0; box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)), url(../Imagens/analytics-3265840_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+    width: 100%;
+    height: 100vh;
+
+    border-top: 5px solid #05243D;
+}
+
+nav {
+    background-color: none;
+    width:95%;
+    height:100px;
+    margin-bottom: 20px;
+
+    margin: 10px auto;
+}
+nav div#logo {
+    float:left;
+    width: 70px;
+    height: 70px;
+}
+nav ion-icon#icone-home {
+    color: whitesmoke;
+    width: 45px;
+    height: 50px;
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+nav ul#esquerda {
+    float:left;
+}
+nav ul#direita {
+    float:right;
+}
+nav ul{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+
+    margin-top: 30px;
+    height: 20px;
+}
+nav ul li {
+    list-style:none;
+    display: inline-block;
+}
+nav ul li a {
+    color:whitesmoke;
+    text-decoration:none;
+    padding:10px 30px;
+    border-radius: 100px;
+
+    font-size: 80%;
+}
+nav ul li a:hover {
+    background-color: #1076C9;
+
+    transition-duration: 0.8s;
+}
+nav ul li a#inscrever {
+    border: 1px solid whitesmoke;
+    padding: 9px 29px;
+}
+nav ion-icon#icone-user {
+    color: whitesmoke;
+    width: 45px;
+    height: 35px;
+    margin-top: -10px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+nav ion-icon#icone-user:hover {
+    color: #1076C9;
+    cursor: pointer;
+}
+nav ul ul {
+    position: absolute;
+    min-width: 222px;
+    display: none;
+    margin-top: 10px;
+}
+nav ul ul li{
+    display: block;
+    background:slategray;
+    padding: 5px;
+}
+nav ul ul li a {
+    padding: 5px;
+}
+nav ul li:hover ul {
+    display: block;
+}
+nav ul ul li:hover a {
+    background-color: #05243D;
+    border-radius: 100px;
+}
+nav ul li a#cont_edu {
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 2px;
+}
+#login-container {
+    background-color: #fff;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width:100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input:focus {
+    border-bottom: 2px solid #08558B;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #08558B;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1B223C;
+    transition-duration: 0.5s;
+}
+
+#login-container {
+    animation-name: HeaderLogin-moverparaolado;
+    animation-duration: 0.8s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+}

@@ -1,0 +1,79 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta name= "author" content="Diego Rodrigues">
+        <meta name="description" content="A proposta é criar um questionário simples, lúdico e dinâmico para pessoas
+        em geral, que tenham o interesse em começar a investir e saberem qual o seu perfil de investidor.">
+
+        <title>Teste Meu Perfil Investidor</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Arvo:ital@0;1&family=Gluten:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="layout2.css" rel="stylesheet">
+        <link href="tipografia2.css" rel="stylesheet">
+        <link href="animacao2.css" rel="stylesheet">
+
+        <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div id="logo">
+                    <ion-icon id="icone-home" name="home"></ion-icon>
+                </div>
+
+                <ul id="esquerda">
+                    <li><a href="../Home/Home_perfil_investidor.html">HOME</a></li>
+                    <li><a href="../Meu perfil/teste_perfil.html">MEU PERFIL</a></li>
+                </ul>
+            </nav>
+            <div class="container">	
+            <div class="row">
+            <div class="two-thirds column">
+            <div id="progress-bar">
+                <form class="question-box">
+
+                    <div id="questao-1">
+                        <h1>Você já possui uma Reserva de Emergência? Se sim, selecione o valor aproximado da sua reserva:</h1>
+                            <input id="alt1-res-a" type="radio" name="alternative" value=1>R$ 0,00 à R$ 10.000,00<br>
+                            <input id="alt1-res-b" type="radio" name="alternative" value=2>R$ 11.000,00 à R$ 99.000,00<br>
+                            <input id="alt1-res-c" type="radio" name="alternative" value=3>R$ 100.000,00 à R$ 250.000,00<br>
+                            <div id="submit1" class="button">Enviar Resposta</div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div id="questao-2">
+                        <h1>Se você está aqui, é porque se interessa por investimentos. Mas, ao investir, qual o seu principal objetivo?</h1>
+                            <input id="alt2-res-a" type="radio" name="alternative" value=1>Apenas ter um rendimento melhor do que a poupança.<br>
+                            <input id="alt2-res-b" type="radio" name="alternative" value=2>Montar uma carteira de dividendos com foco na aposentadoria.<br>
+                            <input id="alt2-res-c" type="radio" name="alternative" value=3>Multiplicar o meu patrimônio e obter uma retabilidade maior mesmo que tenha que tomar maiores riscos.<br>
+                            <div id="submit2" class="button">Enviar Resposta</div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div id="questao-3">
+                        <h1>Classifique o seu nível de experiência com investimentos e finanças:</h1>
+                            <input id="alt3-res-a" type="radio" name="alternative" value=1>Entendo o básico e estou aprendendo.<br>
+                            <input id="alt3-res-b" type="radio" name="alternative" value=2>Entendo e conheço um pouco dos variados tipos de aplicações, mas não me sinto confiante para decidir em qual investir.<br>
+                            <input id="alt3-res-c" type="radio" name="alternative" value=3>Entendo e conheço bem os variados tipos de aplicações e me sinto confiante em decidir meus investimentos.<br>
+                            <div id="submit3" class="button">Enviar Resposta</div>
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div id="questao-4">
+                        <h1 id="qual_perfil">O seu perfil investidor é:</h1>
+                        <h2 id="printperfilinvestidor"></h2>
+                        <input id="perfis" type="button" name="saber mais" value="Saiba mais" />
+                    </div>
+                
+                </form>
+
+                </div>
+            </div>
+            </div>
+            </div>
+        
+        </header>
+
+        <script src="script.js"></script>
+    </body>
+</html>
